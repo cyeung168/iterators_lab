@@ -14,8 +14,7 @@ three sentences:
 
 * `higher-order function`
 
----
-Higher-order functions are functions that takes another function as an argument and results in an output for a function. Higher-order functions provide a simplified model of a problem by reducing repetitive code by introducing new vocabulary or abstracting over actions and values.
+--> Higher-order functions are functions that takes another function as an argument and results in an output for a function. Higher-order functions provide a simplified model of a problem by reducing repetitive code by introducing new vocabulary or abstracting over actions and values.
 ---
 
 Update this README with a description of each of the following and an
@@ -35,11 +34,15 @@ example you've created:
 
 * `reduce`: [note](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
 
---> combines all an array's elements into a single value
+--> reduce: combines all an array's elements into a single value
 
 * `some`: [note](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some)
 
+--> some: return a true value if any of the elements in an array argument is true
+
 * `every`: [note](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every)
+
+--> every: opposite of the some iterator, returns true value if all of the elements in an array arugment are true
 
 Use the notes provided to help guide you explanation.
 
