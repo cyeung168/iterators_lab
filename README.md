@@ -14,6 +14,9 @@ three sentences:
 
 * `higher-order function`
 
+---
+Higher-order functions are functions that takes another function as an argument and results in an output for a function. Higher-order functions provide a simplified model of a problem by reducing repetitive code by introducing new vocabulary or abstracting over actions and values.
+
 
 Update this README with a description of each of the following and an
 example you've created:
