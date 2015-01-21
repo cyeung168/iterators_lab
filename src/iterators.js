@@ -33,7 +33,11 @@ var Iterators = {
   // - product([0,1,2]) should return 0, and
   // - product([100,200,300]) should return 6000000.
   // Use `reduce` to accomplish this.
-  product: function (numbers) {
+  product: function (numbers) { // (numbers) indicate the array parameter
+    var reduceMultiply = numbers.reduce(function (a,b) { // reduce concatenates two front pieces together, and repeats cycle until end
+      return a * b; // in this case we want to multiply the two front represented by a and b
+    });
+    return reduceMultiply;
   },
 
   // hasInstructor() accepts an array of names and should return true
