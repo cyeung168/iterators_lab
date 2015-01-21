@@ -16,16 +16,29 @@ three sentences:
 
 ---
 Higher-order functions are functions that takes another function as an argument and results in an output for a function. Higher-order functions provide a simplified model of a problem by reducing repetitive code by introducing new vocabulary or abstracting over actions and values.
-
+---
 
 Update this README with a description of each of the following and an
 example you've created:
 
 * `forEach`: [note](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
+
+--> forEach: does something to each element in an array
+
 * `map`: [note](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+
+--> map: builds a new a new array where each element has put through a function
+
 * `filter`: [note](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+
+--> filter: builds a new array where elements have been filtered 
+
 * `reduce`: [note](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
+
+--> combines all an array's elements into a single value
+
 * `some`: [note](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some)
+
 * `every`: [note](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every)
 
 Use the notes provided to help guide you explanation.
