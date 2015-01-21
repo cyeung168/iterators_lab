@@ -20,9 +20,17 @@ var Iterators = {
   // - perfectSquares([1,4,9]) should return [1,4,9].
   // Use `filter` to accomplish this.
   perfectSquares: function (numbers) {
-        var squareRoots = numbers.filter(function(num) {
-      return num% num ;// insert here formula to output squares
-    });
+      var squareRoots = numbers.filter(function(num) {
+        return (Math.sqrt(num) % 1 === 0); 
+      }); 
+      // Math.sqrt(x) returns a square root of number(x) 
+      // so Math.sqrt(9) would return 3.
+      //
+      // Leaving Math.sqrt without modular operator would output square roots
+      // even if they weren't whole. Anything divided by 1 results 
+      // in 0 because there is no remainder. Any number is divisible by 1.
+      // By stating modulus remainder must equal 0, only whole numbers  
+      // are outputted in return.
     return squareRoots;
   },
 
@@ -67,7 +75,7 @@ var Iterators = {
   allSamePlayer: function (players) {
   },
 
-  // Also not an iterator metheod, necessarily. devowel() takes a
+  // Also not an iterator method, necessarily. devowel() takes a
   // string as a parameter and returns the same string with all of the
   // vowels removed. There are several ways to do this. One involves
   // Regular Expressions, but we haven't talked about those and they
