@@ -5,6 +5,10 @@ var Iterators = {
   // - tripler([7,50,4]) should return [21,150,12].
   // Use `map` to accomplish this.
   tripler: function (numbers) {
+    var mapTripler = numbers.map(function(num) { // set up map iterator
+      return num * 3; // what it should do -- which is return numbers multipled by 3
+    });
+    return mapTripler; // once the map iterator function runs, output/return tripler
   },
 
   // perfectSquares() should take an array of numbers as a parameter
