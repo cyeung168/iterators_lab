@@ -20,6 +20,10 @@ var Iterators = {
   // - perfectSquares([1,4,9]) should return [1,4,9].
   // Use `filter` to accomplish this.
   perfectSquares: function (numbers) {
+        var squareRoots = numbers.filter(function(num) {
+      return num% num ;// insert here formula to output squares
+    });
+    return squareRoots;
   },
 
   // product() should accept an array of numbers as a parameter
